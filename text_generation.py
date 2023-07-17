@@ -11,7 +11,7 @@ def analyze_sentiment(text):
     elif sentiment_scores['compound'] <= -0.05:
         return "Negative"
     else:
-        return "Neutral"
+        return "NeutraL"
 
 
 def main():
